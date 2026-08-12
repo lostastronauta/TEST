@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portal de Atención Ciudadana | Superintendencia de Educación</title>
+  <meta name="description"
+    content="Portal de Atención Ciudadana de la Superintendencia de Educación: consultas, gestión colaborativa de conflictos, denuncias y opinión.">
+  <meta name="theme-color" content="#2731A0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body data-page="index">
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <!-- Header Dinámico Inyectado -->
+  <div id="app-header"></div>
+
+  <main id="contenido">
+    <div class="container">
+      <p class="intro">En el marco de la Ley N.° 20.529, que crea el Sistema de Aseguramiento de la Calidad de la
+        Educación, ejerce sus facultades para asegurar una educación de calidad, promoviendo el cumplimiento de los
+        deberes, la igualdad de oportunidades y la protección de los derechos de niños, niñas y jóvenes en todo el país.
+      </p>
+
+      <section id="competencias" aria-labelledby="titulo-requerimientos">
+        <h2 class="section-banner" id="titulo-requerimientos">Tipos de requerimientos que se pueden ingresar a la
+          Supereduc</h2>
+
+        <article class="tarjeta" id="consultas">
+          <div class="tarjeta__cab"><span class="tarjeta__num" aria-hidden="true">1</span>
+            <h3 class="tarjeta__titulo">Consultas</h3>
+          </div>
+          <p class="tarjeta__texto"><strong>Orientación normativa:</strong> Destinado a entregar orientaciones sobre la
+            normativa educacional y conocer el estado de su requerimiento.</p>
+          <img class="tarjeta__icono" src="img/icono-consultas.svg" alt="" width="92" height="92" loading="lazy">
+          <div style="text-align:center; margin-top:1rem;">
+            <a class="btn-pill" href="consultas.html">Ver Proceso de Consultas &rarr;</a>
+          </div>
+        </article>
+
+        <article class="tarjeta" id="mediacion">
+          <div class="tarjeta__cab"><span class="tarjeta__num" aria-hidden="true">2</span>
+            <h3 class="tarjeta__titulo">Gestión colaborativa de conflictos</h3>
+          </div>
+          <p class="tarjeta__texto">Tiene como objetivo facilitar el diálogo y fortalecer la capacidad que tienen los
+            establecimientos para abordar de manera oportuna los conflictos que puedan afectar la convivencia escolar,
+            para ello contempla distintos mecanismos, tales como:</p>
+          <ul class="tarjeta__lista">
+            <li><svg class="check" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="12" fill="#2D717C" />
+                <path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg><span><strong>Formulario de contacto directo</strong> entre la/el ciudadana/o y el establecimiento
+                educacional</span></li>
+            <li><svg class="check" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="12" fill="#2D717C" />
+                <path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg><span>Conciliación</span></li>
+            <li><svg class="check" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="12" fill="#2D717C" />
+                <path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg><span>Mediación</span></li>
+          </ul>
+          <img class="tarjeta__icono" src="img/icono-mediacion.svg" alt="" width="92" height="92" loading="lazy">
+          <div style="text-align:center; margin-top:1rem;">
+            <a class="btn-pill" href="mediacion.html">Ver Proceso de Mediación &rarr;</a>
+          </div>
+        </article>
+
+        <article class="tarjeta tarjeta--roja" id="denuncias">
+          <div class="tarjeta__cab"><span class="tarjeta__num" aria-hidden="true">3</span>
+            <h3 class="tarjeta__titulo">Gestión de denuncias</h3>
+          </div>
+          <p class="tarjeta__texto">Su objetivo es verificar el cumplimiento de la normativa educacional por parte de
+            los establecimientos educativos y que estos adopten las medidas correspondientes.</p>
+          <img class="tarjeta__icono" src="img/icono-denuncias.svg" alt="" width="92" height="92" loading="lazy">
+          <div style="text-align:center; margin-top:1rem;">
+            <a class="btn-pill btn-pill--cu" href="denuncias.html">Ver Proceso de Denuncias &rarr;</a>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <div class="tarjeta__cab"><span class="tarjeta__num" aria-hidden="true">4</span>
+            <h3 class="tarjeta__titulo">Danos tu opinión</h3>
+          </div>
+          <ul class="opinion">
+            <li>Felicitaciones</li>
+            <li>Sugerencias</li>
+            <li>Reclamos</li>
+          </ul>
+          <img class="tarjeta__icono" src="img/icono-opinion.svg" alt="" width="92" height="92" loading="lazy">
+        </article>
+      </section>
+
+      <div class="divisor" aria-hidden="true"></div>
+
+      <aside class="recuerda">
+        <img src="img/estrella-recuerda.svg" alt="" width="56" height="56" loading="lazy">
+        <div>
+          <h3>Recuerda:</h3>
+          <p>Los establecimientos educacionales deben contar con procedimientos para la atención de consultas y reclamos
+            de los integrantes de las comunidades educativas, procurando el resguardo de los derechos de los
+            estudiantes.</p>
+        </div>
+      </aside>
+
+      <section aria-labelledby="titulo-facultades">
+        <p class="facultades__intro" id="titulo-facultades">La Superintendencia de Educación cuenta con las siguientes
+          facultades que le permiten impulsar el cumplimiento de la normativa educacional y el resguardo de los
+          derechos:</p>
+        <ul class="facultades">
+          <li><svg class="check" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="12" fill="#2D717C" />
+              <path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <p>Orientar y entregar información sobre la normativa educacional vigente y los derechos de los miembros de
+              la comunidad educativa.</p>
+          </li>
+          <li><svg class="check" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="12" fill="#2D717C" />
+              <path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <p>Recibir y gestionar requerimientos tales como consultas, solicitudes de mediación y denuncias sobre
+              hechos que pueden constituir una infracción o una vulneración de derechos establecidos en la normativa
+              educacional.</p>
+          </li>
+          <li><svg class="check" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="12" fill="#2D717C" />
+              <path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <p>Fiscalizar que se cumpla la normativa educacional y que los recursos entregados por el Estado se utilicen
+              correctamente.</p>
+          </li>
+          <li><svg class="check" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="12" fill="#2D717C" />
+              <path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <p>Promover la resolución colaborativa de conflictos al interior de las comunidades educativas para
+              fortalecer la convivencia y la calidad educativa.</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ============ DENUNCIAS QUE SÍ SON COMPETENCIA ============ -->
+      <section class="panel" aria-labelledby="t-si">
+        <h2 class="cinta" id="t-si">¿Qué tipo de denuncias SÍ son competencia de la Supereduc?</h2>
+        <ul class="grid-iconos">
+          <li><img src="img/si/maltrato.svg" alt="" loading="lazy">
+            <p>Maltrato escolar</p>
+          </li>
+          <li><img src="img/si/discriminacion.svg" alt="" loading="lazy">
+            <p>Discriminación</p>
+          </li>
+          <li><img src="img/si/cancelacion-matricula.svg" alt="" loading="lazy">
+            <p>Cancelación de matrícula</p>
+          </li>
+          <li><img src="img/si/medidas-disciplinarias.svg" alt="" loading="lazy">
+            <p>Medidas disciplinarias</p>
+          </li>
+          <li><img src="img/si/connotacion-sexual.svg" alt="" loading="lazy">
+            <p>Situaciones de connotación sexual</p>
+          </li>
+          <li><img src="img/si/retencion-documentos.svg" alt="" loading="lazy">
+            <p>Retención de documentos</p>
+          </li>
+          <li><img src="img/si/falta-mobiliario.svg" alt="" loading="lazy">
+            <p>Falta de mobiliario y de elementos de enseñanza</p>
+          </li>
+          <li><img src="img/si/reglamento-evaluacion.svg" alt="" loading="lazy">
+            <p>Cumplimiento del reglamento de evaluación y promoción escolar</p>
+          </li>
+          <li><img src="img/si/declaracion-asistencia.svg" alt="" loading="lazy">
+            <p>Irregularidades en la declaración de asistencia</p>
+          </li>
+          <li><img src="img/si/planes-programas.svg" alt="" loading="lazy">
+            <p>Incumplimiento de planes y programas</p>
+          </li>
+          <li><img src="img/si/proceso-admision.svg" alt="" loading="lazy">
+            <p>Irregularidades en el proceso de admisión</p>
+          </li>
+          <li><img src="img/si/uniformes-utiles.svg" alt="" loading="lazy">
+            <p>Uniformes, útiles y textos escolares</p>
+          </li>
+          <li><img src="img/si/planta-docente.svg" alt="" loading="lazy">
+            <p>Problemas con planta docente</p>
+          </li>
+          <li><img src="img/si/participacion.svg" alt="" loading="lazy">
+            <p>Participación: Centro de estudiantes, Centro de madres, padres y apoderados/as, Consejos Escolares</p>
+          </li>
+        </ul>
+
+        <div style="text-align:center; margin-top:2.5rem;">
+          <a class="btn-pill btn-pill--cu" href="denuncias.html" style="font-size:1.05rem;">
+            <span class="cu-badge">CU</span> Ingresar Denuncia con ClaveÚnica
+          </a>
+        </div>
+      </section>
+
+      <!-- ============ DENUNCIAS QUE NO SON COMPETENCIA ============ -->
+      <section class="panel panel--rojo" aria-labelledby="t-no">
+        <h2 class="cinta cinta--roja" id="t-no">¿Qué tipo de denuncias NO son competencia de la Supereduc?</h2>
+        <ul class="grid-iconos">
+          <li><img src="img/no/matricula-sae.svg" alt="" loading="lazy">
+            <p>Búsqueda de matrícula y proceso SAE</p>
+          </li>
+          <li><img src="img/no/educacion-superior.svg" alt="" loading="lazy">
+            <p>Faltas a la normativa educacional en Educación Superior</p>
+          </li>
+          <li><img src="img/no/contratos-laborales.svg" alt="" loading="lazy">
+            <p>Contratos laborales de los funcionarios</p>
+          </li>
+          <li><img src="img/no/identificador-provisorio.svg" alt="" loading="lazy">
+            <p>Problemas con Identificador Provisorio Escolar</p>
+          </li>
+          <li><img src="img/no/becas-tne.svg" alt="" loading="lazy">
+            <p>Reclamos por servicios becas y alimentación TNE</p>
+          </li>
+          <li><img src="img/no/autorizacion-docencia.svg" alt="" loading="lazy">
+            <p>Autorización para ejercer docencia</p>
+          </li>
+          <li><img src="img/no/reconocimiento-oficial.svg" alt="" loading="lazy">
+            <p>Solicitud o modificación de Reconocimiento Oficial</p>
+          </li>
+          <li><img src="img/no/cambio-datos.svg" alt="" loading="lazy">
+            <p>Cambio de apellidos, nombres, sexo o RUN en documentos educacionales</p>
+          </li>
+          <li><img src="img/no/subvenciones-rbd.svg" alt="" loading="lazy">
+            <p>Detalle de subvenciones entregadas por RBD Sostenedor</p>
+          </li>
+          <li><img src="img/no/certificados-ips.svg" alt="" loading="lazy">
+            <p>Certificados de antecedentes laborales previsionales de Docentes y Asistentes de la Educación (IPS)</p>
+          </li>
+          <li><img src="img/no/plataforma-sige.svg" alt="" loading="lazy">
+            <p>Problemas o dudas en uso de plataforma SIGE</p>
+          </li>
+        </ul>
+      </section>
+
+      <div class="divisor" aria-hidden="true"></div>
+
+      <!-- ============ DERIVACIÓN A MINEDUC ============ -->
+      <aside class="derivacion">
+        <img src="img/estrella-recuerda.svg" alt="" loading="lazy">
+        <p>Si tu consulta, solicitud o denuncia no corresponde con nuestras competencias, dirígete al sitio de consultas
+          de Mineduc</p>
+        <!-- TODO: Reemplazar flecha con imagen cuando esté disponible -->
+        <span class="derivacion__flecha" aria-hidden="true"></span>
+        <a class="btn-pill" href="https://ayudamineduc.cl" target="_blank" rel="noopener">ayudamineduc.cl</a>
+      </aside>
+
+      <div class="divisor" aria-hidden="true"></div>
+
+      <!-- ============ COMPETENCIA DE OTROS ORGANISMOS ============ -->
+      <section aria-labelledby="t-otros">
+        <div class="otros-header">
+          <h2 class="titulo-grande" id="t-otros">Denuncias que son competencia de otros organismos</h2>
+          <img class="otros-header__icono" src="img/icono-organismos.svg" alt="" loading="lazy">
+        </div>
+        <div class="divisor" aria-hidden="true"></div>
+        <p class="facultades__intro">Antes de ingresar su requerimiento, revise la siguiente información para confirmar
+          si los hechos a ingresar son de competencia de otros organismos.</p>
+
+        <div class="organismos">
+          <article class="organismo">
+            <img class="organismo__badge" src="img/org/mineduc.svg" alt="Logo Ministerio de Educación" loading="lazy">
+            <div>
+              <h3>
+                <a href="https://ayudamineduc.cl/" target="_blank" rel="noopener">
+                  Ministerio de Educación
+                </a>
+              </h3>
+              <p>Búsqueda de matrícula, Sistema de Admisión Escolar, certificados de estudios, Identificador Provisorio
+                Escolar, certificados de Alumnos Prioritarios, uso de plataforma SIGE, autorizaciones para el ejercicio
+                de la docencia, Reconocimiento Oficial, modificación de datos personales en documentos oficiales
+                educacionales, detalle de subvenciones entregadas por RBD, ránking de notas, legalización o apostilla de
+                certificados.</p>
+            </div>
+          </article>
+
+          <article class="organismo">
+            <img class="organismo__badge" src="img/org/junji.svg" alt="Logo JUNJI" loading="lazy">
+            <div>
+              <h3>
+                <a href="https://junji.cl/" target="_blank" rel="noopener">
+                  Junta Nacional de Jardines Infantiles (JUNJI)
+                </a>
+              </h3>
+              <p>Denuncias respecto a cupos, reclamos con funcionarios de jardines pertenecientes a las entidades.</p>
+            </div>
+          </article>
+
+          <article class="organismo">
+            <img class="organismo__badge" src="img/org/integra.svg" alt="Logo Fundación Integra" loading="lazy">
+            <div>
+              <h3>
+                <a href="https://integra.cl/" target="_blank" rel="noopener">
+                  Red de Salas Cuna y Jardines Infantiles (Fundación Integra)
+                </a>
+              </h3>
+              <p>Denuncias respecto a cupos, reclamos con funcionarios de jardines pertenecientes a las entidades.</p>
+            </div>
+          </article>
+
+          <article class="organismo">
+            <img class="organismo__badge" src="img/org/supereduc-superior.svg"
+              alt="Logo Superintendencia de Educación Superior" loading="lazy">
+            <div>
+              <h3>
+                <a href="https://www.sesuperior.cl/es_cl/" target="_blank" rel="noopener">
+                  Superintendencia de Educación Superior
+                </a>
+              </h3>
+              <p>Hechos o faltas ocurridas en universidades, institutos profesionales o centros de formación técnica.
+              </p>
+            </div>
+          </article>
+
+          <article class="organismo">
+            <img class="organismo__badge" src="img/org/junaeb.svg" alt="Logo JUNAEB" loading="lazy">
+            <div>
+              <h3>
+                <a href="https://www.junaeb.cl/" target="_blank" rel="noopener">
+                  Junta Nacional de Auxilio Escolar y Becas (JUNAEB)
+                </a>
+              </h3>
+              <p>Requerimientos respecto a computadores entregados por la institución, becas, programas de alimentación
+                y Tarjeta Nacional Estudiantil.</p>
+            </div>
+          </article>
+
+          <article class="organismo">
+            <img class="organismo__badge" src="img/org/poder-judicial.svg" alt="Logo Poder Judicial" loading="lazy">
+            <div>
+              <h3>
+                <a href="https://www.pjud.cl/tribunales/corte-de-apelaciones" target="_blank" rel="noopener">
+                  Corte de Apelaciones del Poder Judicial
+                </a>
+              </h3>
+              <p>Ingreso de Recursos de Protección ante vulneración de derechos educacionales. Temas de alcance
+                judicial.</p>
+            </div>
+          </article>
+
+          <article class="organismo">
+            <img class="organismo__badge" src="img/org/direccion-trabajo.svg" alt="Logo Dirección del Trabajo"
+              loading="lazy">
+            <div>
+              <h3>
+                <a href="https://www.dt.gob.cl/portal/1626/w3-channel.html" target="_blank" rel="noopener">
+                  Dirección del Trabajo (DT)
+                </a>
+              </h3>
+              <p>Denuncias por temas contractuales de docentes y asistentes de la educación, así como responsabilidades
+                administrativas de establecimientos particulares (subvencionados y pagados).</p>
+            </div>
+          </article>
+
+          <article class="organismo">
+            <img class="organismo__badge" src="img/org/contraloria.svg" alt="Logo Contraloría General de la República"
+              loading="lazy">
+            <div>
+              <h3>
+                <a href="https://www.contraloria.cl/" target="_blank" rel="noopener">
+                  Contraloría General de la República
+                </a>
+              </h3>
+              <p>Denuncias por temas contractuales de docentes y asistentes de la educación, así como responsabilidades
+                administrativas de establecimientos públicos.</p>
+            </div>
+          </article>
+
+          <article class="organismo">
+            <img class="organismo__badge" src="img/org/sernac.svg" alt="Logo SERNAC" loading="lazy">
+            <div>
+              <h3>
+                <a href="https://www.sernac.cl/portal/617/w3-channel.html" target="_blank" rel="noopener">
+                  Servicio Nacional del Consumidor (SERNAC)
+                </a>
+              </h3>
+              <p>Requerimientos relacionados a contratos de prestación de servicios educativos entre privados.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ============ CTA RECURSOS ============ -->
+      <section class="cta" aria-label="Recursos complementarios">
+        <img class="cta__lapiz" src="img/icono-lapiz.svg" alt="" width="30" height="60" loading="lazy">
+        <p class="cta__texto">Para más información, revisa los recursos complementarios de la Supereduc, <a
+            href="https://www.supereduc.cl" target="_blank" rel="noopener">aquí</a>
+          <img class="cta__mano" src="img/icono-mano.svg" alt="" width="44" height="34" loading="lazy">
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer Dinámico Inyectado -->
+  <div id="app-footer"></div>
+
+  <!-- Scripts del Portal -->
+  <script src="js/accessibility.js"></script>
+  <script src="js/claveunica.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+</body>
+
+</html>
